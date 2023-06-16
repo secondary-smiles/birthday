@@ -39,13 +39,12 @@
         <p>- Shav</p>
       </div>
     </div>
+    <CountDownTimer birthday={"Jun 16"} />
   </div>
 
   <div id="images_container">
     <ScrollingImages />
   </div>
-
-  <CountDownTimer birthday={"Jun 16"} />
 </main>
 
 <style>
