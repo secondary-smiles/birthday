@@ -3,6 +3,7 @@
 </script>
 
 <main>
+  <a href="/">home</a>
   <slot />
   <hr />
   <a href="https://trinket.icu">trinket</a>

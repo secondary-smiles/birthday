@@ -29,7 +29,7 @@
           this fact :)
         </p>
         <p>
-          I have no idea if you think this is cool, or insuffrably nerdy.
+          I have no idea if you think this is cool, or insufferably nerdy.
           Whatever it is, just know I made it hoping you'd smile.
         </p>
         <p>
