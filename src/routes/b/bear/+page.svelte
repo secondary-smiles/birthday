@@ -7,8 +7,7 @@
   <div id="message">
     <h4>Hey</h4>
     <p>
-      Whether it be swords, pokemon, or something even cooler, you've always got
-      your fingers in something.
+      Whether it be swords, pokemon, or something even cooler, you're always doing something cool.
     </p>
     <p>
       Now I know I can be condescending sometimes, but I really do love you, and

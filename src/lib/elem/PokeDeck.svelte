@@ -26,7 +26,7 @@
 
 <main>
   <form>
-    <input bind:value={input} type="text" />
+    <input bind:value={input} type="text" placeholder="search a pokemon"  />
     <button on:click={getPokemon}>search!</button>
   </form>
   {#if input && error}
