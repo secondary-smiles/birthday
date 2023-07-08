@@ -36,7 +36,6 @@
           Consider this your little internet zone. A webpage dedicated to you,
           and just you. From me.
         </p>
-        <p>- Shav</p>
       </div>
     </div>
     <CountDownTimer birthday={"Jun 16"} />
