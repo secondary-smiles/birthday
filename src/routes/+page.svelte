@@ -1,5 +1,5 @@
 <script lang="ts">
-  const links = ["/b/fruit-bro"];
+  const links = ["fruit-bro", "bear"];
 </script>
 
 <main>
@@ -10,7 +10,7 @@
       {#each links as link}
         <li>
           <p>
-            <a href={link}>{link}</a>
+            <a href="/b/{link}">{link}</a>
           </p>
         </li>
       {/each}

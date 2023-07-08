@@ -18,5 +18,8 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"pokedex-api": "^1.1.2"
+	}
 }

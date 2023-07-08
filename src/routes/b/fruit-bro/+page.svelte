@@ -1,6 +1,6 @@
 <script lang="ts">
-  import CountDownTimer from "../../../lib/elem/CountDownTimer.svelte";
-  import ScrollingImages from "../../../lib/elem/ScrollingImages.svelte";
+  import CountDownTimer from "$lib/elem/CountDownTimer.svelte";
+  import ScrollingImages from "$lib/elem/ScrollingImages.svelte";
 </script>
 
 <main>
