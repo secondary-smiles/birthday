@@ -7,7 +7,8 @@
   <div id="message">
     <h4>Hey</h4>
     <p>
-      Whether it be swords, pokemon, or something even cooler, you're always doing something cool.
+      Whether it be swords, pokemon, or something even cooler, you're always
+      doing something cool.
     </p>
     <p>
       Now I know I can be condescending sometimes, but I really do love you, and
@@ -34,7 +35,7 @@
     font-family: "Press Start 2P", sans-serif;
 
     animation-name: spin;
-    animation-duration: 1000s;
+    animation-duration: 2000s;
     animation-iteration-count: infinite;
   }
 
