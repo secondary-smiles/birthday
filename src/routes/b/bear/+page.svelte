@@ -39,6 +39,10 @@
     animation-iteration-count: infinite;
   }
 
+  #message {
+    max-width: 25em;
+  }
+
   @keyframes spin {
     from {
       transform: rotate(0deg);
