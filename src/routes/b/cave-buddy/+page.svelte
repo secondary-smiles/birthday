@@ -46,7 +46,7 @@
       </p>
 
       <p>Here's to an ocean kayak trip in the near future!</p>
-      <p>(plus, you'll always be my caving buddy)</p>
+      <p>(plus, you'll always be my cave buddy)</p>
     </div>
   </div>
 
@@ -73,7 +73,7 @@
   }
 
   #message {
-    text-align: left;
+    max-width: 15em;
   }
 
   .subtext {
