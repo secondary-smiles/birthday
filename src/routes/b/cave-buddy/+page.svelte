@@ -74,6 +74,7 @@
 
   #message {
     max-width: 15em;
+    margin: 0 auto;
   }
 
   .subtext {
