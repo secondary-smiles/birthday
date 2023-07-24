@@ -1,5 +1,9 @@
 <script lang="ts">
-  const links = ["fruit-bro", "bear"];
+  const links = [
+    "fruit-bro",
+    "bear",
+    "cave-buddy"
+  ];
 </script>
 
 <main>
