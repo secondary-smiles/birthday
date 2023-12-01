@@ -4,6 +4,7 @@
     "bear",
     "cave-buddy",
     "liv",
+    "nis"
   ];
 </script>
 
