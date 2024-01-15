@@ -38,7 +38,7 @@
   {/if}
 
   {#if generated}
-    <div class="album-image" transition:blur={{ duration: 5000 }}>
+    <div class="album-image" in:blur={{ duration: 5000 }}>
       <h3>Nis's Version</h3>
       <img src="/nis/1989_nis_version.png" alt="1989 Taylor's Version." />
     </div>
