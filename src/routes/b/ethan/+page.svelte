@@ -24,7 +24,7 @@
   let custom_message = "";
 
   let message =
-    "Happy birthday Ethan! You are easily one of the closest friends I've ever had, and it's not even close. I've never met someone who's so willing to be goofy and crazy with me, but also has the capacity to be so serious when needed. I appreciate you as a friend as also just as a human on this planet. You make a difference in my life, so I'm sure you do for other people as well.";
+    "Happy birthday Ethan! You are easily one of the closest friends I've ever had, and it's not even close. I've never met someone who's so willing to be goofy and crazy with me, but also has the capacity to be so serious when needed. I appreciate you as a friend and also just as a human on this planet. You make a difference in my life, so I'm sure you do for other people as well.";
 
   let played_words: string[] = [];
   let playing = false;
