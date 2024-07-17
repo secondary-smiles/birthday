@@ -53,7 +53,7 @@
       </div>
 
     </div>
-    <p><b>Well, that's kinda fun.<b>
+    <p><b>Well, that's kinda fun.</b>
           <br>
           I hope you like it, but mostly I hope you have a great birthday. We only get them once a year, so here's my contribution towards making this the best one yet.
           <br>
