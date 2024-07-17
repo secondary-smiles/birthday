@@ -6,7 +6,8 @@
     "liv",
     "nis",
     "gremlin",
-    "ethan"
+    "ethan",
+    "dino"
   ];
 </script>
 

@@ -25,7 +25,7 @@
   }, 1);
 </script>
 
-<main>
+<div>
   <pre>{months} month{months == 1 ? "" : "s"} until {birthday}, {year}</pre>
   <pre>{weeks} week{weeks == 1 ? "" : "s"} until {birthday}, {year}</pre>
   <pre>{days} day{days == 1 ? "" : "s"} until {birthday}, {year}</pre>
@@ -35,10 +35,10 @@
   <pre>{milliseconds} millisecond{milliseconds == 1
       ? ""
       : "s"} until {birthday}, {year}</pre>
-</main>
+</div>
 
 <style>
-  main {
+  div {
     margin: 10px 0;
   }
 

@@ -1,27 +1,22 @@
 {
-  description = "Cool people homepage";
+  description = "A very basic svelte flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs }: 
-  let
-    system = "aarch64-darwin";
-    pkgs = nixpkgs.legacyPackages.${system};
-  in {
-    devShells.${system}.default = 
-      pkgs.mkShell {
-        buildInputs = with pkgs; [
-          yarn
-          nodePackages.svelte-language-server
-          nodePackages.typescript-language-server
-          nodePackages.vscode-css-languageserver-bin
-          tree
-        ];
-        shellHook = ''
-          exec zsh
-        '';
-      };
-  };
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+      in {
+        devShell = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            yarn
+            nodePackages.svelte-language-server
+            vscode-langservers-extracted
+          ];
+        };
+      });
 }

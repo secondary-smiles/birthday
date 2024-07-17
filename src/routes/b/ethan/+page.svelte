@@ -133,7 +133,7 @@
         {/each}
       </p>
     </div>
-    <CountDownTimer birthday={"Mar 25"} />
+    <CountDownTimer birthday={"Mar 30"} />
   </div>
 </main>
 
